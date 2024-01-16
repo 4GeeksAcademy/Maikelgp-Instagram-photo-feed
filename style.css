@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+    background-color: rgb(167, 157, 157);
+}
+.header{
+    text-align: center;
+    color: white;
+    background-color: rgb(75, 50, 50); 
+    padding: 5px 5px; 
+}  
+
+.fondo{
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    /*el margin-top es la separación entre una imagen y otra*/    
+}
+
+.post1{
+    background-color: rgb(75, 50, 50);
+    padding: 2px 2px;
+    margin: auto;
+    color: white; /*es el color de h2*/
+    display: block;
+    width: 100% 
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+img{
+    margin: auto;
+    display: block;
+    padding: right;
+    width: 100% 
+    
+}
+
